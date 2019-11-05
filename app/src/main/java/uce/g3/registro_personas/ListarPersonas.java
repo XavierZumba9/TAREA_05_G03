@@ -57,10 +57,8 @@ public class ListarPersonas extends AppCompatActivity {
 
             Intent i = new Intent(ListarPersonas.this,Login.class);
             startActivity(i);
-        }if(id==R.id.Salir){
-
-
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

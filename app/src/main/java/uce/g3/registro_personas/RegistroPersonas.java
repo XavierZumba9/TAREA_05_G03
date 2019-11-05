@@ -158,6 +158,7 @@ public class RegistroPersonas extends AppCompatActivity {
          diaC = dia.getSelectedItem().toString();
          mesC = mes.getSelectedItem().toString();
          anioC = anio.getSelectedItem().toString();
+
         return diaC +"/"+ mesC +"/"+ anioC;
     }
 
